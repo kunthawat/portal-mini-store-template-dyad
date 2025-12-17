@@ -4,7 +4,7 @@
 
 - **Frontend Framework**: Next.js 15 with React 19 and TypeScript for type-safe development
 - **Backend/CMS**: Payload CMS 3.0 for content management, authentication, and API generation
-- **Database**: Neon Database with automatic schema management via Payload migrations
+- **Database**: PostgreSQL with automatic schema management via Payload migrations
 - **UI Components**: shadcn/ui components with Radix UI primitives for accessible, customizable components
 - **Styling**: Tailwind CSS for utility-first styling with custom design system
 - **Authentication**: Built-in Payload authentication with role-based access control (user/admin roles)

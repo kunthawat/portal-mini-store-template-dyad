@@ -33,7 +33,7 @@ A complete e-commerce portal template built with Next.js 15 and Payload CMS 3.0,
 ### Technology Stack
 - **Frontend**: Next.js 15, React 19, TypeScript
 - **Backend**: Payload CMS 3.0
-- **Database**: Vercel Postgres
+- **Database**: PostgreSQL
 - **Styling**: Tailwind CSS + Radix UI
 - **Authentication**: Payload built-in auth
 - **Image Processing**: Sharp
@@ -710,8 +710,8 @@ email: nodemailerAdapter({
    ```
 
 4. **Database Setup**:
-   - Configure Vercel Postgres or other PostgreSQL database
-   - Set `POSTGRES_URL` in environment
+   - Configure your PostgreSQL database (self-hosted or any PostgreSQL provider)
+   - Set `POSTGRES_URL` in environment with your PostgreSQL connection string
 
 5. **Start Development**:
    ```bash

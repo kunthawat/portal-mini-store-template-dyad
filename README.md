@@ -25,7 +25,7 @@ This template comes configured with the bare minimum to get started on anything 
 
 - **Frontend**: Next.js 15, React 19, TypeScript
 - **Backend**: Payload CMS 3.0
-- **Database**: Vercel Postgres
+- **Database**: PostgreSQL
 - **Authentication**: Built-in Payload authentication with role-based access
 - **Styling**: Custom CSS with modern responsive design
 - **Media**: Sharp for image processing
@@ -74,7 +74,7 @@ This template comes configured with the bare minimum to get started on anything 
 ### Prerequisites
 - Node.js 18+ or 20+
 - pnpm 9+ or 10+
-- PostgreSQL database (Vercel Postgres recommended)
+- PostgreSQL database (self-hosted or any PostgreSQL provider)
 
 ### Installation
 
@@ -168,7 +168,7 @@ The application is fully responsive with breakpoints:
 
 ### Using Vercel
 1. Connect repository to Vercel
-2. Configure Vercel Postgres database
+2. Configure PostgreSQL database (Vercel Postgres or external)
 3. Set environment variables
 4. Deploy
 
